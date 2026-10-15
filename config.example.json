@@ -1,0 +1,37 @@
+{
+  "my_domains": ["yourcompany.com"],
+
+  "brand_overrides": {
+    "coca-cola.com": "#f40009",
+    "google.com": "#4285f4",
+    "amazon.com": "#ff9900"
+  },
+
+  "call": {
+    "brightness": 80,
+    "no_calendar_colour": "#8a5cff",
+    "end_grace_seconds": 30,
+    "event_match_minutes": 10,
+    "preview_minutes": 2,
+    "preview_brightness": 35
+  },
+
+  "office_days": ["mon", "tue", "wed", "thu", "fri"],
+  "turn_off_after_office": true,
+
+  "schedule": [
+    ["08:30", {"ct": 4000, "bri": 70}],
+    ["09:30", {"ct": 5000, "bri": 100}],
+    ["12:00", {"ct": 3500, "bri": 70}],
+    ["13:00", {"ct": 4500, "bri": 90}],
+    ["15:30", {"ct": 3300, "bri": 75}],
+    ["16:30", {"ct": 2700, "bri": 50}],
+    ["17:00", null]
+  ],
+
+  "day_accents": {
+    "mon": [["08:30", {"color": "#4fc3f7", "bri": 80}], ["09:00", {"ct": 4500, "bri": 85}]],
+    "wed": [["12:00", {"color": "#7cd67c", "bri": 60}]],
+    "fri": [["15:00", {"color": "#ff9e3d", "bri": 65}]]
+  }
+}

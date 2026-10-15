@@ -1,0 +1,11 @@
+# per-machine state
+config.json
+hue_light.json
+brand_cache.json
+status.json
+
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+build/
